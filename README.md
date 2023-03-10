@@ -45,21 +45,23 @@
 
     
 ## Screenshots
-##### This is Home Page
+## This is Home Page
 ![App Screenshot](https://github.com/lukog2002/guvi/blob/main/screenshots/pic1.jpg?raw=true)
 
 
-##### This is Register Page
+## This is Register Page
 ![App Screenshot](https://github.com/lukog2002/guvi/blob/main/screenshots/pic3.jpg?raw=true)
 
 
-##### This is LogIn Page
+## This is LogIn Page
 ![App Screenshot](https://github.com/lukog2002/guvi/blob/main/screenshots/pic2.jpg?raw=true)
 
 
-##### This is Profile Page
+## This is Profile Page
 ![App Screenshot](https://github.com/lukog2002/guvi/blob/main/screenshots/profile.jpg?raw=true)
 
 
-##### Updating profile details in profile page
+
+
+## Updating profile details in profile page
 ![App Screenshot](https://github.com/lukog2002/guvi/blob/main/screenshots/pic4.jpg?raw=true)
