@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Styling body */
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+/* Styling the cover section */
+section{
+    background: #333;
+    color: #fff;
+    height: 85vh;
+    padding: 20px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 100%;
+  }
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.flex-box .content{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+img{
+    width: 600px;
+    height: 300px;
+}
+.flex-box p {
+    text-align: center;
+}
+span{
+    color: yellow;
+}
+.flex-box .buttons{
+    align-self: center;
+    margin-top: 10px;
+}
+/* Styling all buttons */
+.button{
+    background-color: #405cf5;
+    letter-spacing: 2px;
+    padding: 14px 20px;
+    border-radius: 5px;
+    color: #fff;
+    margin: 8px 0;
+    opacity: 0.9;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+button:hover {
+    opacity:1;
+  }
+a:hover{
+    transform: scale(1.1);
+}
+
+/* Styling all input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .container-form {
+    padding: 16px;
+  }
+
+  /* Styling update button */
+  .update-btn{
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  .update-btn:hover{
+    opacity: 1;
+  }
+ 
+.mongo-form{
+    width: 50vw;
+    margin: auto;
+}
+
+/* 
+for logout button
+*/
+.logout{
+    position: absolute;
+    right: 10px;
+}
+
+/* media queries for responsive site */
+@media (max-width : 768px) {
+  .logout{
+    padding: 5px 5px;
+}
+    img{
+        display: none;
+    }
+    section{
+        height: 100vh;
+    }
+    .flex-box .content{
+        gap: 30px;
+    }
+    body{
+        font-size: 14px;
+    }
+    .button{
+        margin-bottom: 20px;
+  
+    }
+    .flex-box .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .mongo-form{
+        width: auto;
+        margin: auto;
+    }
+}
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }

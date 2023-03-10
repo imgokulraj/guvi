@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/registration.css">
+</head>
+<body>
+    <form class="formregister">
+        <div class="container">
+            <h1>Register</h1>
+            <p class="msg">PLease fill in this form to create an account</p>
+            <hr>
+            <label for="name">Name</label>
+            <input placeholder="Enter Name" required type="text" name="" id="name">
+
+            <label for="username">User Name</label>
+            <input required placeholder="Enter Username" type="text" name="" id="username">
+
+            <label for="email">Email</label>
+            <input required placeholder="Enter Email" type="text" name="email" id="email">
+
+            <label for="password">password</label>
+            <input required placeholder="Enter password" type="password" name="password" id="password">
+            <div class="msg"></div>
+            <div class="clearfix">
+                <button type="submit" class="signupbtn">Register</button>
+                <button class="login">LogIn</button>
+            </div>
+        </div>
+    </form>
+    <script src="js/register.js"></script>
+    
+</body>
+</html>
